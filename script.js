@@ -230,7 +230,7 @@ function calcular() {
     const botao = document.getElementById('botaoc');
     const cg = codigo ? codigo.value : '';
 
-    
+
 
     if (!cg) {
         alert("Codigo não encontrado ou não colocado!");
@@ -245,7 +245,7 @@ function calcular() {
 
 
     setTimeout(() => {
-        
+
 
         main.classList.add("headerCalculadoraextendida");
         main.innerHTML = `
@@ -284,8 +284,8 @@ function calcular() {
                 </div>
                 </div>
             `
-            
-        
+
+
 
 
     }, 3000);
@@ -310,8 +310,87 @@ function fecharMenu() {
     header1.classList.remove("umembaixo");
 }
 function levarCadastro() {
-    window.location.href="Tela de Cadastro.html";
+    window.location.href = "Tela de Cadastro.html";
 }
 function comecarImp() {
-    window.location.href="imp";
+    window.location.href = "imp.html";
 }
+function comoimp() {
+
+    const paginaDestino = "index.html?scroll=ComoFunciona";
+    
+
+    window.location.href = paginaDestino;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    const elementoId = urlParams.get('scroll'); 
+
+    if (elementoId) {
+
+        const destino = document.getElementById(elementoId);
+
+        if (destino) {
+
+            destino.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
+});
+function rastreimp() {
+
+    const paginaDestino = "index.html?scroll=Rastreamentor";
+    
+
+    window.location.href = paginaDestino;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    const elementoId = urlParams.get('scroll'); 
+
+    if (elementoId) {
+
+        const destino = document.getElementById(elementoId);
+
+        if (destino) {
+
+            destino.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
+});
+
+function contatoimp() {
+
+    const paginaDestino = "index.html?scroll=contato";
+    
+
+    window.location.href = paginaDestino;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    const elementoId = urlParams.get('scroll'); 
+
+    if (elementoId) {
+
+        const destino = document.getElementById(elementoId);
+
+        if (destino) {
+
+            destino.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
+});contato
