@@ -2,13 +2,13 @@
   --background-color-header: rgba(255, 255, 255, 0.7);
   --color-header: rgba(66, 65, 65, 0.5);
   --cor-footer: rgb(2, 14, 36);
-  --cor-estrelas: linear-gradient(to right,
-      rgb(17, 16, 38),
-      rgb(43, 63, 239));
-  --cor-calculadora: linear-gradient(to right,
-      rgb(114, 65, 212),
-      rgb(57, 68, 173),
-      rgb(114, 65, 212));
+  --cor-estrelas: linear-gradient(to right, rgb(17, 16, 38), rgb(43, 63, 239));
+  --cor-calculadora: linear-gradient(
+    to right,
+    rgb(114, 65, 212),
+    rgb(57, 68, 173),
+    rgb(114, 65, 212)
+  );
   --color-black: black;
   --color-white: white;
   --color-azul: rgb(11, 92, 243);
@@ -25,40 +25,47 @@
   --tokito-corr: rgb(4, 4, 196);
   --tokito-co: aqua;
   --tokito-c: rgb(230, 104, 255);
-  --cor-azul: linear-gradient(to right,
-      rgb(17, 16, 38),
-      rgb(42, 59, 203),
-      rgb(17, 16, 38));
+  --cor-azul: linear-gradient(
+    to right,
+    rgb(17, 16, 38),
+    rgb(42, 59, 203),
+    rgb(17, 16, 38)
+  );
 
   --boz-shadow-oreia-fraco: 0 10px 15px rgba(0, 0, 0, 0.2);
   --boz-shadow-oreia-forte: 0 4px 6px rgba(0, 0, 0, 0.3);
 
   --boz-shadow-oreia-fraco2: 0 10px 15px rgba(0, 0, 0, 0.2);
   --boz-shadow-oreia-forte2: 0 4px 6px rgba(0, 0, 0, 0.1);
-
 }
 
 .tema-dark {
   --background-color-header: black;
   --color-header: rgb(185, 170, 170);
-  --cor-footer: linear-gradient(to right,
-      rgb(0, 0, 0),
-      rgb(22, 20, 20),
-      rgb(0, 0, 0));
+  --cor-footer: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(22, 20, 20),
+    rgb(0, 0, 0)
+  );
 
   --color-black: white;
   --color-white: black;
   --color-azul: rgb(11, 92, 243);
   --color-grey: rgb(141, 131, 131);
-  --cor-azul: linear-gradient(to right,
-      rgb(0, 0, 0),
-      rgb(46, 41, 41),
-      rgb(0, 0, 0));
+  --cor-azul: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(46, 41, 41),
+    rgb(0, 0, 0)
+  );
 
-  --cor-estrelas: linear-gradient(to right,
-      rgb(12, 12, 12),
-      rgb(22, 22, 22),
-      rgb(31, 30, 30));
+  --cor-estrelas: linear-gradient(
+    to right,
+    rgb(12, 12, 12),
+    rgb(22, 22, 22),
+    rgb(31, 30, 30)
+  );
 
   --color-cinza-claro: rgb(216, 200, 200);
 
@@ -74,10 +81,12 @@
 
   --boz-shadow-oreia-fraco2: 0 10px 15px rgba(134, 133, 133, 0.76);
   --boz-shadow-oreia-forte2: 0 4px 6px rgba(221, 206, 206, 0.4);
-  --cor-calculadora: linear-gradient(to right,
-      rgb(12, 12, 12),
-      rgb(22, 22, 22),
-      rgb(31, 30, 30));
+  --cor-calculadora: linear-gradient(
+    to right,
+    rgb(12, 12, 12),
+    rgb(22, 22, 22),
+    rgb(31, 30, 30)
+  );
 }
 
 * {
@@ -105,7 +114,7 @@
 
 .tema-dark #meuOlho {
   filter: invert(100%);
-  -webkit-filter: invert(100%)
+  -webkit-filter: invert(100%);
 }
 
 .comecof {
@@ -394,8 +403,6 @@
   border: 1px solid rgb(77, 76, 76);
 }
 
-
-
 header h1 {
   font-family: sans-serif;
   margin: auto;
@@ -602,7 +609,6 @@ header h1 {
   font-size: 1rem;
   margin-top: -1rem;
   margin-bottom: -2rem;
-
 }
 
 .numero1importar {
@@ -610,9 +616,8 @@ header h1 {
   border-radius: 3rem;
   width: 2.5rem;
   height: 2.5rem;
-  color:var(--bacground-color-white);
+  color: var(--bacground-color-white);
 }
-
 
 .divimportanuncafoitaofacil1 {
   background-color: var(--bacground-color-white);
@@ -681,7 +686,7 @@ header h1 {
 /*Carlos*/
 
 .titulocalculadoraia {
-text-align: center;
+  text-align: center;
 }
 
 .titulocalculadora {
@@ -779,11 +784,12 @@ text-align: center;
   transition: background-image 0.3s ease;
 }
 
-
 .inputCalculadora .botaoCalcular:hover {
-  background-image: linear-gradient(to right,
-      rgb(114, 65, 212),
-      rgb(11, 25, 155));
+  background-image: linear-gradient(
+    to right,
+    rgb(114, 65, 212),
+    rgb(11, 25, 155)
+  );
 }
 
 /* --- Media Queries para Input Calculadora (responsivo) --- */
@@ -1029,7 +1035,6 @@ text-align: center;
   transform: translateY(-5px);
 }
 
-
 /* Ajustes responsivos para a seção techu */
 @media (max-width: 900px) {
   .techu h2 {
@@ -1226,10 +1231,12 @@ text-align: center;
 /*Vantagens que Fazem a Diferença fim*/
 /*Rastreamento ao vivo inicio*/
 .rastreamento {
-  background-image: linear-gradient(to right,
-      rgb(17, 16, 38),
-      rgb(42, 59, 203),
-      rgb(17, 16, 38));
+  background-image: linear-gradient(
+    to right,
+    rgb(17, 16, 38),
+    rgb(42, 59, 203),
+    rgb(17, 16, 38)
+  );
   min-width: 100%;
   max-width: 1100px;
   font-family: "Quicksand", Helvetica, sans-serif;
@@ -1424,40 +1431,138 @@ footer button:hover {
 
 /*fim do footer*/
 /*começo da tela de importação*/
+.tech-ship-link {
+  text-decoration: none;
+  color: var(--color-button-inicio);
+  font-weight: bold;
+  display: inline-flex;
+  gap: 0.05em;
+  cursor: pointer;
+  font-size: 1.8rem;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.letter {
+  display: inline-block;
+  animation: jump 1s infinite;
+}
+
+.letter:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.letter:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.letter:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.letter:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.letter:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.letter:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.letter:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.letter:nth-child(8) {
+  animation-delay: 0.8s;
+}
+.letter:nth-child(9) {
+  animation-delay: 0.9s;
+}
+
+.tech-ship-link:hover .letter {
+  color: #007bff;
+}
+
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
 .headetop {
   background-color: rgb(0, 36, 238);
   min-width: 100%;
   max-width: 1000px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
   text-align: center;
+  position: relative;
+  padding: 0.6rem 20px;
+
+}
+
+@media (max-width: 600px) {
+  .tech-ship-link {
+    position: static; /* volta ao fluxo */
+    transform: none;
+    left: auto;
+    top: auto;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0.4rem auto;
+    z-index: 1;
+  }
+
+  .botoes,
+  .butoes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0;
+  }
+
+  .bu {
+    width: auto;
+    margin: 0.2rem 0;
+  }
+
+  .headetop {
+    padding: 0.4rem 12px;
+  }
 }
 
 .headetop button {
   padding: 1rem;
   border: none;
 }
-
-.bt {
-  background-color: transparent;
-  font-size: 2rem;
-  margin-right: auto;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .bu {
   background-color: transparent;
   font-size: 1rem;
+  font-weight: 300;
   max-width: 200px;
   min-width: 5%;
   margin-left: auto;
   text-align: end;
+  cursor: pointer;
+  color: wheat;
+  transition: all 0.3s ease;
+}
+.bu:hover {
+   color: #007bff;
 }
 
 .botoes {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
 .bodyimporta {
@@ -1834,7 +1939,6 @@ footer button:hover {
   height: auto;
 }
 
-
 .disabled-button {
   opacity: 0.8;
   cursor: not-allowed;
@@ -1932,7 +2036,7 @@ footer button:hover {
   flex-wrap: wrap;
 }
 
-.pc>div {
+.pc > div {
   flex: 1 1 160px;
   min-width: 140px;
   max-width: 320px;
@@ -1951,7 +2055,7 @@ footer button:hover {
     gap: 1rem;
   }
 
-  .pc>div {
+  .pc > div {
     flex: 1 1 100%;
     min-width: 100%;
     max-width: 100%;
@@ -2047,9 +2151,11 @@ footer button:hover {
 }
 
 .inputCalculadora .botaoCalcular:hover {
-  background-image: linear-gradient(to right,
-      rgb(114, 65, 212),
-      rgb(11, 25, 155));
+  background-image: linear-gradient(
+    to right,
+    rgb(114, 65, 212),
+    rgb(11, 25, 155)
+  );
 }
 
 /* --- Media Queries para Input Calculadora (responsivo) --- */
@@ -2088,7 +2194,6 @@ footer button:hover {
 
 /* --- Media Queries para Vantagens (1 coluna no mobile) --- */
 @media (max-width: 900px) {
-
   .divmãeVantagensDiferença1,
   .divmãeVantagensDiferença2 {
     flex-direction: column;
@@ -2109,7 +2214,6 @@ footer button:hover {
 }
 
 @media (max-width: 580px) {
-
   .divVantagens1,
   .divVantagens2,
   .divVantagens3,
@@ -2153,8 +2257,6 @@ header {
 /*Tecnologias de Última Geração*/
 
 @media screen and (max-width: 375px) {
-
-
   body {
     min-width: 100%;
     max-width: 375px;
@@ -2307,7 +2409,6 @@ header {
   .Cadastrodivconteiner img {
     margin: 1rem auto;
   }
-
 }
 
 .Cadastrodivconteiner img {
