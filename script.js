@@ -149,6 +149,14 @@ function rastrear() {
     <p>Status do Pedido: Em transporte 🚚</p>
 
     <div class="exemplo">
+        <div class="status-barra">
+          <span class="inicio">Chegando…</span>
+          <span class="fim">Chegou!</span>
+        </div>
+
+        <div class="barra-progresso">
+          <div class="barra"></div>
+        </div>
 
         <div class="map-container">
 
@@ -191,6 +199,7 @@ function rastrear() {
         </div>
 
     </div>
+    
 
     <h3 class="he">Endereço: Rua teste, nº 1234</h3>
     <h3 class="he">Prazo estimado: 3 dias úteis</h3>
