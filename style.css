@@ -2525,3 +2525,57 @@ header {
 .city:hover {
   transform: scale(1.08);
 }
+
+
+.status-barra {
+    display: none !important; 
+    width: 100%;
+    font-size: 0.9rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    opacity: 0.9;
+}
+
+.barra-progresso {
+    width: 100%;
+    height: 8px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+    display: none;
+}
+
+.barra {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    animation: carregar 2.5s infinite;
+}
+
+@keyframes carregar {
+    0% { width: 0%; }
+    50% { width: 70%; }
+    100% { width: 100%; }
+}
+
+@media (max-width: 500px) {
+
+    .status-barra {
+        display: flex !important;
+    }
+
+    .barra-progresso {
+        display: block;
+    }
+
+    .map-container {
+        display: none;
+    }
+}
+
+
+
